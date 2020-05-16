@@ -2046,6 +2046,19 @@ input, select, textarea {
 		margin-right: auto;
 	}
 
+
+	@media screen and (max-width: 736px) {
+		.div-form {
+			/* background-color: #175bae; */
+			/* opacity: .5; */
+			padding: 3rem;
+			width: 95%;
+			/* width: max-content; */
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
 	form {
 		margin: 0 0 2rem 0;
 	}
@@ -2270,6 +2283,9 @@ input, select, textarea {
 	.formerize-placeholder {
 		color: #acacac !important;
 	}
+
+
+	
 
 /* Icon */
 
