@@ -3252,7 +3252,7 @@ input, select, textarea {
 		width: 100%;
 		height: 3.25rem;
 		line-height: 3.25rem;
-		background-color: #881e08;
+		background-color: whitesmoke;
 		box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.125);
 		cursor: default;
 		z-index: 10000;
@@ -3264,7 +3264,7 @@ input, select, textarea {
 			height: inherit;
 			line-height: inherit;
 			border-bottom: 0;
-			color: whitesmoke;
+			color: black;
 		}
 
 		#header > .logo {
@@ -3333,14 +3333,15 @@ input, select, textarea {
 					}
 
 			.dropotron {
-				/* background-color: #ffffff; */
-				background-color: #0000;
+				background-color: #ffffff;
+				/* background-color: #0000; */
 				border-radius: 0.5rem;
 				box-shadow: 0 0.075rem 0.75rem 0 rgba(0, 0, 0, 0.125);
 				list-style-type: none;
 				margin: -0.5rem 0 0 1px;
 				min-width: 10rem;
 				padding: 0.5rem 0;
+				opacity: .95 !important;
 			}
 
 				.dropotron.level-0 {
@@ -3393,6 +3394,7 @@ input, select, textarea {
 			-webkit-animation: reveal-header 0.5s ease;
 			-ms-animation: reveal-header 0.5s ease;
 			animation: reveal-header 0.5s ease;
+			/* color: black; */
 		}
 
 		#header.alt {
@@ -3405,7 +3407,7 @@ input, select, textarea {
 			position: absolute;
 		}
 		#header.alt a{
-			/* color: black; */
+			color: whitesmoke;
 			font-weight: 500;
 		}
 			
@@ -4057,7 +4059,7 @@ input, select, textarea {
 					#wrapper > .main > header.accent2 .button.primary {
 						background-color: #ffffff;
 						box-shadow: none;
-						color: #881e08!important;
+						color: whitesmoke!important;
 					}
 
 						#wrapper > .main > header.accent2 input[type="submit"].primary:hover,
@@ -4573,7 +4575,7 @@ input, select, textarea {
 				#wrapper > .main.accent2 .button.primary {
 					background-color: #ffffff;
 					box-shadow: none;
-					color: #881e08!important;
+					color: whitesmoke!important;
 				}
 
 					#wrapper > .main.accent2 input[type="submit"].primary:hover,
@@ -4936,7 +4938,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6rem 0 4rem 0 ;
-		background-color: #881e08;
+		background-color: whitesmoke;
 		/* background-color: #ffffff; */
 		color: whitesmoke;
 	}
