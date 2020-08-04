@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		
 	</head>
 	<body class="is-preload">
 
@@ -28,8 +30,9 @@
 									<li class="current"><a href="index.html">Inicio</a></li>
 									<li><a href="#two" class="scrolly">Quienes somos</a></li>
 									<li>
-										<a href="#" class="icon solid fa-angle-down">Servicios</a>
-										<ul>
+										<a href="#three" class="scrolly">Servicios</a>
+										<!-- <a href="#" class="icon solid fa-angle-down">Servicios</a> -->
+										<!-- <ul>
 											<li><a href="#">Option One</a></li>
 											<li><a href="#">Option Two</a></li>
 											<li><a href="#">Option Three</a></li>
@@ -42,11 +45,11 @@
 													<li><a href="#">Option Four</a></li>
 												</ul>
 											</li>
-										</ul>
+										</ul> -->
 									</li>
 									<li><a href="index.html">Novedades</a></li>
-									<li><a href="index.html">Resultados</a></li>
-									<li><a href="#form" class="scrolly">Contacto</a></li>
+									<!-- <li><a href="index.html">Resultados</a></li> -->
+									<li><a href="contacto.html" class="scrolly">Contacto</a></li>
 									<!-- <li><a href="generic.html">Generic</a></li>
 									<li><a href="elements.html">Elements</a></li> -->
 								</ul>
@@ -61,10 +64,17 @@
 								<!-- <h1>Consultora<br />
 								SUELOS</h1> -->
 								<h1>Laboratorio AGROINDUSTRIAL<br> <span style="color: #386f06;"> CONSULTORA SUELOS</span></h1>
-								<p>Perú 630. Pergamino. Bs. As.</p>
+								<!-- <p>Perú 630. Pergamino. Bs. As.</p> -->
+								<article>
+									<h2>ING. EN ALIMENTOS<br>ELISA RATTO</h2>
+									<h3>2477-429540 / 2477-452030</h3>
+									<h4>consultorasuelos@gmail.com</h4>
+									<h4>PERU 630, PERGAMINO BUENOS AIRES</h4>
+								</article>
+								<br>
 							</header>
 							<ul class="actions special">
-								<li><a href="#two" class="button large wide scrolly">Más Información</a></li>
+								<li><a href="contacto.html" style="font-size: 1.4rem;" class="button large wide scrolly">Contáctenos</a></li>
 							</ul>
 						</div>
 						<div class="content secondary">
@@ -92,7 +102,7 @@
 					</section>
 
 				<!-- Section -->
-					<section id="one" class="main">
+					<section id="three" class="main">
 						<header class="accent1">
 							<h2>Servicios</h2>
 							<p>Analizamos con responsabilidad y certeza para impulsar su negocio.</p>
@@ -100,25 +110,39 @@
 						<ul class="tabs">
 							<li>
 								<!-- <h3>Lorem <span class="extra">ipsum dolor</span></h3> -->
+
+								<!-- kkkkkk -->
+								<!-- <li class="Tabs__tab" onclick="showContent(event, 'contenidoTab1')" id="defaultActive">Abierto</li>
+								<li class="Tabs__tab" onclick="showContent(event, 'contenidoTab2')">Próximo</li>
+								<li class="Tabs__tab" onclick="showContent(event, 'contenidoTab3')">Futuros</li> -->
+								<!-- kkkkkk -->
+
 								<h3>Análisis</h3>
 								<div class="spotlight">
 									<ul>
-										<li>
+										<li class="Tabs__tab" onclick="showContent(event, 'contenidoTab1')" id="defaultActive" onmouseover="showContent(event, 'contenidoTab1')">
 											<h4>Suelos</h4>
 											<p>El análisis de suelos es una herramienta fundamental para evaluar la fertilidad del suelo, su capacidad productiva y es la base para definir la dosis de nutrientes a aplicar.</p>
 										</li>
-										<li>
+										<li class="Tabs__tab" onmouseover="showContent(event, 'contenidoTab2')">
 											<h4>Agua</h4>
 											<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
 										</li>
 									</ul>
-									<span class="image"><img src="images/tierra.png" alt="" /></span>
+									<!-- <span class="image"><img src="images/tierra.png" alt="" /></span> -->
+									<!-- <span><img src="https://picsum.photos/id/1025/600/400" alt=""></span> -->
+									<!-- <span class="image"><img src="https://picsum.photos/id/642/300/200" alt=""></span> -->
+
+									<span id="contenidoTab1" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1076/300/200" alt=""></span>
+									<span id="contenidoTab2" class="image Tabs__tab-content"><img src="https://picsum.photos/id/598/300/200" alt=""></span>
+									<span id="contenidoTab3" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1020/300/200" alt=""></span>
+									<span id="contenidoTab4" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1067/300/200" alt=""></span>
 									<ul>
-										<li>
+										<li class="Tabs__tab" onmouseover="showContent(event, 'contenidoTab3')">
 											<h4>Fertilizantes orgánicos</h4>
 											<p>Sed adipiscing ornare risus. Morbi lorem lentesque egestas sem consequat.</p>
 										</li>
-										<li>
+										<li class="Tabs__tab" onmouseover="showContent(event, 'contenidoTab4')">
 											<h4>Alimentos</h4>
 											<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
 										</li>
@@ -198,64 +222,7 @@
 					</section>
 
 				<!-- FORM  -->
-					<section class="section-form" id="form">
-						<div class="div-form">
-							<h2>Contacto</h2>
-							<form method="post" action="#">
-								<div class="row gtr-uniform">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombre" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<!-- Break -->
-									<!-- <div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div> -->
-									<!-- Break -->
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Soy Consultora</label>
-									</div>
-									<!-- <div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal</label>
-									</div> -->
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">Soy Laboratorio</label>
-									</div>
-									<!-- Break -->
-									<!-- <div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human</label>
-									</div> -->
-									<!-- Break -->
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Su mensaje" rows="6"></textarea>
-									</div>
-									<!-- Break -->
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Enviar" class="primary" /></li>
-											<!-- <li><input type="reset" value="Reset" /></li> -->
-										</ul>
-									</div>
-								</div>
-							</form>
-						</div>
-					</section>
+					
 
 
 				<!-- Section -->
@@ -371,12 +338,13 @@
 			</div>
 
 
-			<a style="position: fixed; bottom: 0px; right: 7px;z-index: 10;" href="https://wa.me/542477452030" target="_blank" rel="noopener noreferrer">
-				<img src="images/WhatsApp_Logo_1.png" alt="">
+			<a style="position: fixed; bottom: 10px; right: 7px;z-index: 10; text-decoration-style: none;" href="https://wa.me/542477452030" target="_blank" rel="noopener noreferrer">
+				<img src="images/whatsapp-logo.png" alt="">
 			</a>
 
 
 		<!-- Scripts -->
+			<script src="assets/js/tabs.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.selectorr.min.js"></script>
@@ -386,6 +354,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
