@@ -2356,9 +2356,10 @@ input, select, textarea {
 		position: relative;
 		
 	}
-
-		.image img {
-			display: block;
+	
+	.image img {
+		display: block;
+		transition: .5s;
 		}
 
 		.image.left, .image.right {
@@ -2765,8 +2766,8 @@ input, select, textarea {
 
 			.spotlight > ul > li {
 				border-top: solid 1px #eeeeee;
-				margin: 2rem 0 0 0;
-				padding: 2rem 0 0 0;
+				/* margin: 2rem 0 0 0;
+				padding: 2rem 0 0 0; */
 			}
 
 				.spotlight > ul > li > :last-child {
@@ -2791,7 +2792,7 @@ input, select, textarea {
 			margin: 0 4rem;
 		}
 
-			.spotlight > .image img {
+			.spotlight .image img {
 				border-radius: 10%;
 				width: 100%;
 			}
@@ -2805,13 +2806,15 @@ input, select, textarea {
 				flex-wrap: wrap;
 			}
 
-				.spotlight > ul {
+			/* orden servicios */
+
+				/* .spotlight > ul {
 					-moz-order: 2;
 					-webkit-order: 2;
 					-ms-order: 2;
 					order: 2;
 					width: calc(50% - 1rem);
-				}
+				} */
 
 					.spotlight > ul:first-child {
 						text-align: center;
@@ -3584,10 +3587,14 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+			justify-content: space-around;
+
+			
 		}
 
 			#banner .features > section {
-				padding: 0 2rem;
+				/* padding: 0 6rem; */
+				width: 300px;
 			}
 
 		#header + #banner {
@@ -5225,3 +5232,90 @@ input, select, textarea {
 		transform: translateX(0);
 		visibility: visible;
 	}
+
+
+
+	.Tabs__tab {
+		padding: 1rem !important;
+		border-radius: 10px;
+		height: 150px;
+		transition: .5s;
+
+	}
+	.Tabs__tab:hover{
+		background-color: whitesmoke;
+		transition: 1.5s;
+
+	}
+
+	.hov1 {
+		background-color: whitesmoke;
+	}
+	/* .hov1:hover {
+		background-color: #6534001a;
+	} */
+
+	/* .hov2:hover{
+		background-color: #93e1ff38;
+	}
+	.hov3:hover{
+		background-color: #2ba65540;
+	}
+	.hov4:hover{
+		background-color: #a4a62b40;
+	} */
+
+.no_responsive {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+@media (max-width: 800px) {
+	.hov2 {
+		margin-bottom: 1.5rem;
+	}
+}	
+/* .responsive {
+	display: none;
+} 
+
+
+@media (max-width: 800px) {
+
+	.responsive {
+		display: block;
+	}
+	.no_responsive {
+		display: none;
+	}
+	
+
+} */
+
+
+
+.Tabs__tab-content {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}

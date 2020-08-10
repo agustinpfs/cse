@@ -20,6 +20,12 @@ for (i = 0; i < tab_button.length; i++) {
 tab_button[i].className = tab_button[i].className.replace(" active", "");
 }    
 
+// style.cssText = "display: block; position: absolute";
+
 document.getElementById(contenidoDeUnTab).style.display = "block";
 evento.target.className += " active";
+}
+
+function chbg(color) {
+    document.getElementById('defaultActive').style.backgroundColor = color;
 }

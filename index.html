@@ -81,20 +81,20 @@
 							<div class="inner">
 								<div class="features">
 									<section>
-										<span class="icon solid fa-vial major"></span>
-										<h3>Análisis</h3>
-										<p>Morbi in sem quis dui placerat ornare. Pellentesque ipsum dolor</p>
-									</section>
-									<section>
 										<span class="icon solid fa-chart-line major"></span>
-										<h3>Envío de muestras</h3>
-										<p>Integer vitae libero ac risus eges placerat voluptrus magna</p>
+										<h3>EXPERIENCIA ABALADA POR TRAYECTORIA</h3>
+										<p>Mas de 20 años en el rubro satisfaciendo las necesidades del mercado</p>
 									</section>
 									<section>
+										<span class="icon solid fa-vial major"></span>
+										<h3>CALIDAD</h3>
+										<p>Realizamos interlaboratorios que evalúan constantemente nuestra forma de trabajo para brindar el mejor resultado</p>
+									</section>
+									<!-- <section>
 										<span class="icon solid fa-money-check-alt major"></span>
 										<h3>Cotización</h3>
 										<p>Fusce lobortis lorem ipsum semper sagittis etiam consequat</p>
-									</section>
+									</section> -->
 								</div>
 							</div>
 						</div>
@@ -120,29 +120,39 @@
 								<h3>Análisis</h3>
 								<div class="spotlight">
 									<ul>
-										<li class="Tabs__tab" onclick="showContent(event, 'contenidoTab1')" id="defaultActive" onmouseover="showContent(event, 'contenidoTab1')">
+										<li class="Tabs__tab hov1" onclick="showContent(event, 'contenidoTab1')" id="defaultActive" onmouseover="showContent(event, 'contenidoTab1'); chbg('whitesmoke')">
 											<h4>Suelos</h4>
 											<p>El análisis de suelos es una herramienta fundamental para evaluar la fertilidad del suelo, su capacidad productiva y es la base para definir la dosis de nutrientes a aplicar.</p>
 										</li>
-										<li class="Tabs__tab" onmouseover="showContent(event, 'contenidoTab2')">
+
+										<!-- <div id="a" onmouseover="chbg('red')">This is element a</div> -->
+										
+
+										<li class="Tabs__tab hov2" onmouseover="showContent(event, 'contenidoTab2'); chbg('white')">
 											<h4>Agua</h4>
 											<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
 										</li>
+										
 									</ul>
 									<!-- <span class="image"><img src="images/tierra.png" alt="" /></span> -->
 									<!-- <span><img src="https://picsum.photos/id/1025/600/400" alt=""></span> -->
 									<!-- <span class="image"><img src="https://picsum.photos/id/642/300/200" alt=""></span> -->
-
-									<span id="contenidoTab1" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1076/300/200" alt=""></span>
-									<span id="contenidoTab2" class="image Tabs__tab-content"><img src="https://picsum.photos/id/598/300/200" alt=""></span>
-									<span id="contenidoTab3" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1020/300/200" alt=""></span>
-									<span id="contenidoTab4" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1067/300/200" alt=""></span>
+									<div class="no_responsive"> <span id="contenidoTab1" class="image Tabs__tab-content"><img
+												src="https://picsum.photos/id/1076/300/200" alt=""></span>
+										<span id="contenidoTab2" class="image Tabs__tab-content"><img src="https://picsum.photos/id/598/300/200"
+												alt=""></span>
+										<span id="contenidoTab3" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1020/300/200"
+												alt=""></span>
+										<span id="contenidoTab4" class="image Tabs__tab-content"><img src="https://picsum.photos/id/1067/300/200"
+												alt=""></span>
+									</div>
 									<ul>
-										<li class="Tabs__tab" onmouseover="showContent(event, 'contenidoTab3')">
+										
+										<li class="Tabs__tab hov3" onmouseover="showContent(event, 'contenidoTab3'); chbg('white')">
 											<h4>Fertilizantes orgánicos</h4>
 											<p>Sed adipiscing ornare risus. Morbi lorem lentesque egestas sem consequat.</p>
 										</li>
-										<li class="Tabs__tab" onmouseover="showContent(event, 'contenidoTab4')">
+										<li class="Tabs__tab hov4" onmouseover="showContent(event, 'contenidoTab4'); chbg('white')">
 											<h4>Alimentos</h4>
 											<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
 										</li>
@@ -154,7 +164,8 @@
 								<h3>Envío de muestras</h3>
 								<div class="spotlight">
 									<ul>
-										<li>
+										<li class="Tabs__tab hov1" onclick="showContent(event, 'contenidoTab1')" id="defaultActive" onmouseover="showContent(event, 'contenidoTab1'); chbg('whitesmoke')">
+
 											<h4>Erat aliquam</h4>
 											<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
 										</li>
@@ -205,6 +216,7 @@
 							</li>
 						</ul>
 					</section>
+					
 
 
 
