@@ -5275,6 +5275,8 @@ input, select, textarea {
 	.hov2 {
 		margin-bottom: 1.5rem;
 	}
+	
+	
 }	
 /* .responsive {
 	display: none;
@@ -5320,3 +5322,45 @@ input, select, textarea {
 		opacity: 1
 	}
 }
+
+
+
+
+
+.org-img {
+	padding: 3rem;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.org-img figure {
+	width: 40%;
+	margin-left: 8rem;
+}
+
+.res {
+	display: none;
+}
+@media (max-width: 800px) {
+	.res {
+		display: block;
+	}
+	.no_res {
+		display: none;
+	}
+
+	.org-img figure {
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+	}
+	.res figure {
+		margin-bottom: 1.5rem;
+	}
+	
+}	
+
+
