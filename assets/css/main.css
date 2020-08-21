@@ -222,9 +222,9 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p {
+	/* p {
 		margin: 0 0 2rem 0;
-	}
+	} */
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
@@ -4944,6 +4944,64 @@ input, select, textarea {
 	}
 
 /* Footer */
+
+
+html {
+	scroll-behavior: smooth;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #653400;
+	height: 100%;
+	padding: 1rem;
+	color: whitesmoke;
+	align-items: center;
+}
+
+footer a {
+	color: whitesmoke;
+	text-decoration: underline;
+}
+footer a:hover {
+	color: whitesmoke !important;
+	text-decoration: underline;
+}
+
+footer ul {
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+footer li {
+	list-style: none;
+	font-size: 1.2rem;
+	margin-left: .5rem;
+}
+
+footer data p {
+	line-height: 3px;
+	margin: 0 0 1rem 0 !important;
+}
+
+@media screen and (max-width: 800px) {
+	footer {
+		flex-direction: column;
+	}
+	footer ul {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	footer section {
+		margin-bottom: 2rem;
+	}
+
+	footer li {
+		margin-bottom: 2rem;
+	}
+}
 
 	#footer {
 		padding: 6rem 0 4rem 0 ;
