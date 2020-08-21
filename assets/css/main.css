@@ -4952,18 +4952,23 @@ html {
 footer {
 	display: flex;
 	justify-content: space-between;
-	background-color: #653400;
+	/* background-color: white; */
+	background-color: #333;
+	/* background-color: #653400; */
 	height: 100%;
 	padding: 1rem;
+	/* color: black; */
 	color: whitesmoke;
 	align-items: center;
 }
 
 footer a {
+	/* color: black; */
 	color: whitesmoke;
 	text-decoration: underline;
 }
 footer a:hover {
+	/* color: black !important; */
 	color: whitesmoke !important;
 	text-decoration: underline;
 }
