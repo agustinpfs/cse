@@ -2260,18 +2260,18 @@ input, select, textarea {
 			border-color: #eeeeee;
 		}
 
-	input[type="checkbox"]:checked + label:before,
+	/* input[type="checkbox"]:checked + label:before, */
 	input[type="radio"]:checked + label:before {
 		background-color: #386f06;
 		border-color: #386f06;
 		color: #ffffff;
 	}
 
-	input[type="checkbox"]:focus + label:before,
+	/* input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
 		border-color: #386f06;
 		box-shadow: 0 0 0 1px #386f06;
-	}
+	} */
 
 	::-webkit-input-placeholder {
 		color: #acacac !important;
