@@ -1,0 +1,47 @@
+#wrapper > .main > header > * {
+    width: 80%;
+}
+
+.art-serv {
+    margin-top: 2rem
+}
+
+/* .serv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   
+} */
+
+.serv p {
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+   
+}
+
+body {
+    /* width: 80% !important; */
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 6rem;
+    border-bottom: 1px solid #333;
+}
+
+
+img {
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+

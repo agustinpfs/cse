@@ -3555,7 +3555,8 @@ input, select, textarea {
 		}
 
 		#banner header p {
-			margin-bottom: 2rem;
+			margin-bottom: 1rem;
+			font-weight: 500;
 		}
 
 		#banner .content {
@@ -4724,7 +4725,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .main > header {
-			padding: 4rem 0 2rem 0 ;
+			padding: 3rem 0 2rem 0 ;
 		}
 
 			#wrapper > .main > header > * {
